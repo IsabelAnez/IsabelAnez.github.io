@@ -4,8 +4,69 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Web de Películas</title>
+    <style>
+        body {
+            background-image: url('https://img.freepik.com/premium-photo/close-up-empty-seats-row_1048944-23918793.jpg?w=740');
+            background-size: cover;
+            background-position: center;
+            margin: 0;
+            font-family: Arial, sans-serif;
+            color: #e0e0e0;
+        }
+        
+        header {
+            background-color: #333;
+            color: rgba(255, 255, 255, 0.8);
+            padding: 20px;
+            text-align: center;
+        }
+        
+        footer {
+            background-color: #333;
+            color: rgba(255, 255, 255, 0.8);
+            text-align: center;
+            padding: 15px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+
+        main {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh; 
+        }
+
+        a {
+            text-decoration: none; 
+        }
+
+        p {
+            background-color: rgba(51, 51, 51, 0.8); 
+            color: rgba(255, 255, 255, 0.9);
+            padding: 15px 30px;
+            border-radius: 8px;
+            font-size: 18px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+            text-align: center;
+        }
+
+        p:hover {
+            background-color: rgba(60, 60, 60, 0.9); 
+        }
+    </style>
 </head>
 <body>
-    <a href="https://github.com/IsabelAnez/repo-animacion.git"><p>Mostrar contenido</p></a>
+    <header>
+        <h1>Películas</h1>
+    </header>
+    <main>
+       <a href="https://github.com/IsabelAnez/repo-animacion.git"><p>Mostrar contenido</p></a> 
+    </main>
+    <footer>
+        <p>Actividad de Entornos de Desarrollo</p>
+    </footer>
 </body>
 </html>
